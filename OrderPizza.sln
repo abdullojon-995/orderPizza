@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderPizza.Api", "OrderPizza.Api\OrderPizza.Api.csproj", "{F771C897-392D-4665-BE93-5C04E8E2F61D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderPizza.Domain", "OrderPizza.Domain\OrderPizza.Domain.csproj", "{E06BC7C2-84E3-495E-81C5-2FD8501B8C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderPizza.Infrastructre", "OrderPizza.Infrastructre\OrderPizza.Infrastructre.csproj", "{9C277BE6-3B91-4D78-BAD0-9BF63E45419D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F771C897-392D-4665-BE93-5C04E8E2F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F771C897-392D-4665-BE93-5C04E8E2F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F771C897-392D-4665-BE93-5C04E8E2F61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06BC7C2-84E3-495E-81C5-2FD8501B8C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06BC7C2-84E3-495E-81C5-2FD8501B8C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06BC7C2-84E3-495E-81C5-2FD8501B8C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06BC7C2-84E3-495E-81C5-2FD8501B8C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C277BE6-3B91-4D78-BAD0-9BF63E45419D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C277BE6-3B91-4D78-BAD0-9BF63E45419D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C277BE6-3B91-4D78-BAD0-9BF63E45419D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C277BE6-3B91-4D78-BAD0-9BF63E45419D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
