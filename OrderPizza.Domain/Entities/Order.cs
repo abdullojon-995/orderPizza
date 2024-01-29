@@ -11,7 +11,7 @@
 
         public int UserId { get; set; }
         public User User { get; set; }
-        public ICollection<Product> Products { get; set; }
         public Courier Courier { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }
